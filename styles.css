@@ -1,0 +1,51 @@
+.container {
+    
+background-color: white;
+align-items: center;
+text-align: center;
+width: 300px;
+padding: 20px;
+border: 1px solid #ffd000;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+    
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    width: 1140px;
+    padding: 20px;
+    border: 1px solid #ffd000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+    text-align: center;
+    align-items: center;
+    margin-bottom:1px;
+
+}
+
+.botao {
+    color: #000000; 
+    color: #000; 
+   
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.botao:hover {
+    background-color: #ffffff; 
+    color: #000;
+}
+
+.h1 {
+ color: aliceblue;
+}

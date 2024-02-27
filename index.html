@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulario PHP</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+   <body class="bg-secondary">
+      <center>
+         <h1 class="h1">
+             <b> Formulário </b> 
+        </h1>
+
+
+        
+        </center>
+        <center>
+      <form action="processar_formulario.php" method="GET">
+         <div class="container">
+           <b>
+                  <p class="dados-pessoais">Dados Pessoais:</p>
+                </b>
+              <p> <label for="nome">Nome:</label></p>
+               <input type="text" name="nome">
+               
+               <br>
+               <p> <label for="Endereco">Endereço:</label></p>
+               <input type="text" name="Endereço">
+             
+               <br>
+               <p><label for="Cidade">Cidade:</label></p>
+               <input type="text" name="Cidade">
+             
+               <br>
+               <br>
+               <p><td>Estado: <select name="Estado" id="ESTD"></p><br>
+                <br>
+                <br><p> <br><option>Selecione um Estado:</option></p>
+                   
+                     <option>Distrito Federal</option>
+                    
+                     <option>Rio De Janeiro</option>
+                     <option>Rio Grande do Norte</option>
+                     <option>Rio Grande do Sul</option>
+                     <option>Tocantins</option>
+                     <option>Acre</option>
+                     <option>Alagoas</option>
+                     <option>Amapá</option>
+                     <option>Amazonas</option>
+                     <option>Bahia</option>
+                     <option>Ceará</option>
+                  </select>
+               </td>
+         </div>
+   <br>
+            <br>
+        </center>
+        <center>
+<div class="container2">
+<b>
+              <p class="dados-pro">Dados Pessoais:</p>
+            </b>
+            <b>   <P>Natureza Do Cargo:</P> </b>
+              <input checked type="radio" name="Cargo" value="Gerência"/> Gerência
+              <input type="radio" name="Cargo" value="Gerência"/> Financeiro
+              <input type="radio" name="Cargo" value="Gerência"/> Recepção
+              <input type="radio" name="Cargo" value="Gerência"/> Administrativo
+
+              <input type="radio" name="Cargo" value="Gerência"/> Psicólogo
+              <input type="radio" name="Cargo" value="Gerência"/> Técnico
+              <input type="radio" name="Cargo" value="Gerência"/> Médico
+              <input type="radio" name="Cargo" value="Gerência"/> Enfermeiro
+        
+              <br>
+              <td>
+                <br>
+
+
+
+            <b><p>Área de Interesse</p></b>
+              <input type="checkbox" name="Area de Interesse"> Computação
+              <input type="checkbox" name="Area de Interesse"> Biologia
+              <input type="checkbox" name="Area de Interesse"> Meio Ambiente
+              <input type="checkbox" name="Area de Interesse"> Engenharia
+              <input type="checkbox" name="Area de Interesse"> História
+            </td>
+            <br>
+<br>
+            <p><textarea name="Currículo" placeholder="Conte mais sobre suas experiencias." cols="30" rows="5"></textarea>
+            </p>
+            <div>
+            </div>
+         </div><br>
+         <div class="botao">
+            <button type="submit" class="botao">SALVAR</button>
+            <button type="submit" class="botao">LIMPAR</button>
+         </div>
+      </form>
+    </div>
+</center>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
+   
+   </html>
